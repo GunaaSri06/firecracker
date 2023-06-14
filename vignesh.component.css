@@ -1,0 +1,197 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .row1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+  }
+  
+  .row2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00a9ec;
+    
+    }
+  
+    .tabset{
+      display: flex;
+      flex-direction: column;
+      height:100vh;
+    }
+  
+    .icon-button {
+      display: flex;
+      align-items: center;
+      background-color: rgb(247, 144, 113);
+    }
+    
+    .icon-button:hover{
+        cursor:pointer
+    }
+    .icon {
+      font-size: 24px;
+      height: 24px;
+      width: 24px;
+      margin-right: 8px;
+    }
+    
+    .text {
+      font-size: 16px;
+      height: 24px;
+      line-height: 24px;
+    }
+    * {
+        box-sizing: border-box;
+      }
+      .toolbar {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #43436B;
+        color: #212179;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        padding: 0 1rem;
+      }
+      .spacer {
+        flex: 1;
+      }
+    
+      .toolbar img {
+        margin: 0 16px;
+      }
+      .root {
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-color: #fcfcff;
+      }
+      .component {
+        width: 90.2%;
+        min-height: 70vh;
+        padding-top: 1rem;
+        background: #f8f8f8;
+        
+      }
+      .heading {
+       text-align: center;
+      }
+      .divider {
+        /* COLUMN WIDTH */
+        border-radius: 2cm;
+        width: 20%;
+        height: 70%;
+        background: #4c4ce7;
+        padding: 1rem;
+      }
+      .nav-link {
+        text-decoration: none;
+        color: #A1A1B5;
+      }
+      .nav-link:hover .mat-list-item {
+        background-color: rgba(67, 67, 107, 0.04);
+      }
+      .nav-link .mat-list-item {
+        color: #A1A1B5;
+      }
+      .nav-link.active-link .mat-list-item {
+        color: #7A77FF;
+      }
+      .example-container {
+        position: relative;
+        min-height: 200px;
+      }
+      
+      .example-table-container {
+        position: relative;
+        max-height: 75vh;
+        overflow: auto;
+      }
+      
+      table {
+        width: 50%;
+      }
+      
+      .example-loading-shade {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 56px;
+        right: 0;
+        background: rgba(0, 0, 0, 0.15);
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .example-rate-limit-reached {
+        color: #980000;
+        max-width: 200px;
+        text-align: center;
+      }
+      
+      /* Column Widths */
+      .mat-column-number,
+      .mat-column-state {
+        max-width: 30px;
+      }
+      
+      .mat-column-created {
+        max-width: 100px;
+      }
+      
+      .table th {
+        background: #F8F8FC;
+        color: #43436B;
+        font-weight: 500;
+        line-height: 1.5rem;
+        border-bottom: 1px solid #eeeeee;
+         
+      }
+      .table thead {
+        background: #F8F8FC;
+      }
+      .spacerlist{
+        flex: 1 1 auto;
+      }
+      .example-full-width {
+        width: 100%;
+        border-color: rgb(255, 238, 0);
+      }
+      .example-container mat-form-field + mat-form-field {
+        margin-left: 8px;
+      }
+      
+      .example-right-align {
+        text-align: right;
+      }
+      
+      input.example-right-align::-webkit-outer-spin-button,
+      input.example-right-align::-webkit-inner-spin-button {
+        display: none;
+      }
+      .example-spacer {
+        flex: 1 1 auto;
+      }
+     
